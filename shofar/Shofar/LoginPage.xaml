@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:Shofar;assembly=Shofar"
+    xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar"
+    x:Class="Shofar.LoginPage"
+    Title="">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="EntryStyle" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <AbsoluteLayout>
+        
+        <RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+            <Image Source="login_bg.png" BackgroundColor="Brown" Aspect="AspectFill"
+                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height,Factor=0.0,Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1.0,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1.0,Constant=0}" />
+
+            <StackLayout Orientation="Vertical" 
+                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1.0,Constant=0}"
+                RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1.0,Constant=0}" >
+
+                  <StackLayout VerticalOptions="CenterAndExpand"  HorizontalOptions="FillAndExpand" Orientation="Vertical"  Margin="20,0,20,10" >
+                    <Label Text="Login" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,10,10,0" Font="Bold,18" TextColor="White" />
+                    </StackLayout>
+                        
+                    <StackLayout VerticalOptions="CenterAndExpand"  HorizontalOptions="FillAndExpand" Orientation="Vertical"  Margin="20,0,20,10" >
+                    <Image Source="logo.png" HorizontalOptions="Center" VerticalOptions="Center"  >
+                     </Image>
+                     </StackLayout>
+                <StackLayout VerticalOptions="CenterAndExpand"  HorizontalOptions="FillAndExpand" Orientation="Vertical"  Margin="20,0,20,10" >
+                    <Label  Text="Email ID" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0" Font="Bold,16" TextColor="White" />
+                    <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                         <local:CustomTextField  VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtEmail" Placeholder="Email ID" 
+                               Keyboard="Email"  Style="{DynamicResource EntryStyle}" TextColor="#65B3FF"  />
+                    </StackLayout>
+                    <StackLayout BackgroundColor="#ffffff" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+
+                    <Label Text="PASSWORD" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,20,10,0" Font="Bold,16" TextColor="White" />
+                    <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtPassword"  
+                           IsPassword="True" Placeholder="Password" Style="{DynamicResource EntryStyle}" TextColor="#65B3FF"  />
+                    </StackLayout>
+                    <StackLayout BackgroundColor="#ffffff" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+                        
+                      <Image Source="next_btn02.png" HorizontalOptions="Center" VerticalOptions="Center"  >
+                            <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                    Tapped="Handle_Tapped"
+                                    />
+                            </Image.GestureRecognizers>
+                            </Image>
+
+                     <Button Text="No account yet? Sign up Now" TextColor="White" VerticalOptions="Center" Clicked="Singup_Clicked"  />   
+
+                      <Button Text="Register as Driver" TextColor="White" VerticalOptions="Center" Clicked="DriverSingup_Clicked"  />   
+
+                     <Button Text="Forgot Password?" TextColor="White" VerticalOptions="Center" Clicked="Forgot_Clicked"  />  
+                </StackLayout> 
+            </StackLayout>
+
+        </RelativeLayout>
+         <!--<RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsLoading}" BackgroundColor="#55000000" >
+         <ActivityIndicator IsVisible="{Binding IsLoading}"
+                           IsRunning="{Binding IsLoading}"
+                           Color="White"
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
+                                    Property=Height,
+                                    Factor=0.25}"
+                           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+                                    Property=Height,
+                                    Factor=0.50}" />
+            </RelativeLayout>-->
+
+                  <RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsLoading}" BackgroundColor="#55000000">
+            <ActivityIndicator IsVisible="{Binding IsLoading}" IsRunning="{Binding IsLoading}" Color="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,&#xA;                                    Property=Height,&#xA;                                    Factor=0.25}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,&#xA;                                    Property=Height,&#xA;                                    Factor=0.50}" />
+        </RelativeLayout>
+            </AbsoluteLayout>
+    </ContentPage.Content>
+</base:BasePage>

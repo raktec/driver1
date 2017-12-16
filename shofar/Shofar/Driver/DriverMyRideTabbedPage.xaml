@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:Shofar.Driver;assembly=Shofar" 
+
+    x:Class="Shofar.Driver.DriverMyRideTabbedPage" BackgroundColor="Silver">
+
+    <NavigationPage Title = "Completed Rides"  Icon="rate_app_icon" >
+        <x:Arguments>
+           <local:DriverMyRidesPage ></local:DriverMyRidesPage>
+            
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title = "Upcoming Rides" Icon="schedules_icon" >
+        <x:Arguments>
+        <local:DriverScheduleRidesPage></local:DriverScheduleRidesPage>
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>

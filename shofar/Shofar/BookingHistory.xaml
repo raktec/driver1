@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:base="clr-namespace:Shofar;assembly=Shofar"
+    xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar"
+    x:Class="Shofar.BookingHistory"
+    Title="History">
+    <base:BasePage.Content>
+        <StackLayout BackgroundColor="White" Orientation="Vertical" HorizontalOptions="FillAndExpand" 
+            VerticalOptions="FillAndExpand">
+            <ListView ItemSelected="Handle_ItemSelected" CachingStrategy="RecycleElement" 
+                x:Name="lstBookings" HasUnevenRows="true" Margin="5" SeparatorVisibility="None" >
+                <ListView.ItemTemplate >
+                    <DataTemplate >
+                        <ViewCell  >
+                            <StackLayout Orientation="Horizontal" BackgroundColor="#F4F6F7" 
+                                VerticalOptions="FillAndExpand" Padding="10"  >
+                                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+                                <Label Text="{Binding DisplayId}" FontAttributes="Bold" TextColor="#1263B4" />
+                                <Label Text="{Binding DisplayBookingDate}" FontSize="12" TextColor="#8B9197" Margin="0, -2,0,0"  />
+                                <Label Text="{Binding DisplayBookingText}" Margin="0,5,0,5" />
+                                <Label Text="{Binding displayAmonunt}" FontAttributes="Bold" TextColor="#F45959" />
+                                </StackLayout>
+
+                                <StackLayout Orientation="Vertical" VerticalOptions="Center" >
+                                    <Label Text="48 km" FontSize="18" FontAttributes= "Bold"  HorizontalOptions="FillAndExpand" Margin="5" TextColor="#01F11E" BackgroundColor= "#125EAA" />
+                                <!--<Label Text="Rs. 380" FontSize="10" FontAttributes= "Bold" HorizontalTextAlignment="Center"/>-->
+                                </StackLayout>
+                            
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </base:BasePage.Content>
+</base:BasePage>

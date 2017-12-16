@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:Shofar;assembly=Shofar"
+    xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar"
+    xmlns:ci="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"  
+
+    x:Class="Shofar.Driver.DriverFinalPricePage"
+    Title= "Payment">
+   <base:BasePage.Resources>
+            <ResourceDictionary>
+                <Style x:Key="EntryStyle" TargetType="Entry">
+                    <Setter Property="BackgroundColor" Value="Transparent" />
+                </Style>
+            </ResourceDictionary>
+        </base:BasePage.Resources>
+    
+    <base:BasePage.Content>
+
+       
+
+            <AbsoluteLayout>
+     <RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="White">
+
+                <StackLayout Orientation="Vertical" 
+                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1.0,Constant=0}"
+                    RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1.0,Constant=0}" >
+                    <ScrollView >
+
+                       <StackLayout VerticalOptions="CenterAndExpand"  HorizontalOptions="FillAndExpand" Orientation="Vertical"  Margin="0,20,0,0"  >
+
+                              <Label Text="Toatl Amount" VerticalOptions="Center" HorizontalOptions="Start" Margin="20,10,10,0" Font="Bold,18" TextColor="#0035aa" WidthRequest="220" />
+
+                            <StackLayout VerticalOptions="CenterAndExpand"   HorizontalOptions="FillAndExpand" Orientation="Vertical"  Margin="20,20,20,10" >
+                            <Label Text="FARE AMOUNT" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0"  TextColor="Black" Font="Bold,14" />
+
+                            <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+
+                            <Label x:Name="txtFare"  VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,0,0,0" Font="Bold,16" TextColor="Black" />
+
+                        </StackLayout>
+
+                               
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+                       
+                            <Label Text="PICK UP POINT" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0"  TextColor="Black" Font="Bold,14" />
+
+                            <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+
+                           <Label x:Name="txtPickupPoint" Text="It is a long established fact that a reader will be distracted by the ." VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,0,0,0" Font="Bold,12" TextColor="Black" />
+
+                        </StackLayout>
+
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+                         <Label Text="DROP POINT" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0"  TextColor="Black" Font="Bold,14" />
+
+                            <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                           
+                         <Label x:Name="txtDropPoint"  VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,0,0,0" Font="Bold,12" TextColor="Black" />
+
+
+                        </StackLayout>
+
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+
+
+                        <Label Text="DISTANCE" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0"  TextColor="Black" Font="Bold,14" />
+                         <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <Label x:Name="txtDistance"  VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,0,0,0" Font="Bold,12" TextColor="Black" />
+                                    
+                        </StackLayout>
+                         <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+                     
+                           <Label Text="Vehicle Info" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0" Font="Bold,18" TextColor="#0035aa" WidthRequest="220" />
+
+                          <Label Text="CAR TYPE" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,20,10,0" TextColor="Black"  Font="Bold,14"/>
+                        <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                           
+                            <Label x:Name="txtCarName"  VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,0,0,0" Font="Bold,12" TextColor="Black" />
+
+                        </StackLayout>
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}" />
+                         <Label Text="BASIC FARE" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0" TextColor="Black" Font="Bold,14" />
+                        <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+
+                           <Label x:Name="txtBasicFare"  VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,0,0,0" Font="Bold,12" TextColor="Black" />
+
+                        </StackLayout>
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}" />
+
+                            </StackLayout>
+                             
+                        <StackLayout BackgroundColor="Lime" Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  VerticalOptions="EndAndExpand" x:Name="btnRequestPayment"  >
+                             <Label Text="Request Payment" Margin="10" />
+                               </StackLayout>
+                          
+                    </StackLayout> 
+
+                   
+                       </ScrollView>
+                </StackLayout>
+                
+        </RelativeLayout>
+
+            </AbsoluteLayout>
+        
+    </base:BasePage.Content>
+
+
+    
+</base:BasePage>
+
+

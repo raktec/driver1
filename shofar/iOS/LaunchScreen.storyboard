@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="Umc-4N-Us9">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Umc-4N-Us9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="JM9-Sb-Qrl"/>
+                            <constraint firstItem="Umc-4N-Us9" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="RZL-ca-agH"/>
+                            <constraint firstItem="Umc-4N-Us9" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="jYY-QZ-DJr"/>
+                            <constraint firstItem="Umc-4N-Us9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qQH-d1-CFM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash.png" width="320" height="568"/>
+        <image name="contacts.png" width="24" height="24"/>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="Default-568h.png" width="320" height="568"/>
+        <image name="Default-Portrait.png" width="768" height="1004"/>
+        <image name="hamburger.png" width="14" height="15"/>
+        <image name="Icon-60.png" width="60" height="60"/>
+        <image name="Icon-76.png" width="76" height="76"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="Icon-Small-40.png" width="40" height="40"/>
+        <image name="reminders.png" width="24" height="24"/>
+        <image name="todo.png" width="24" height="24"/>
+        <image name="about_us_icon.png" width="24" height="20"/>
+        <image name="blue_circle.png" width="42" height="42"/>
+        <image name="blue_search_icon.png" width="15" height="15"/>
+        <image name="booking_detail_bg.png" width="303" height="116"/>
+        <image name="booking_detail_graphice.png" width="320" height="155"/>
+        <image name="close_icon.png" width="11" height="11"/>
+        <image name="deselect_star.png" width="17" height="16"/>
+        <image name="drop_arrow.png" width="10" height="6"/>
+        <image name="edit_icon.png" width="11" height="11"/>
+        <image name="gray_input_line.png" width="382" height="1"/>
+        <image name="help_icon.png" width="23" height="23"/>
+        <image name="history_icon.png" width="24" height="24"/>
+        <image name="logout_icon.png" width="23" height="17"/>
+        <image name="map_pointer.png" width="33" height="42"/>
+        <image name="menu_icon.png" width="18" height="11"/>
+        <image name="mini_car.png" width="30" height="22"/>
+        <image name="next_arrow.png" width="24" height="18"/>
+        <image name="next_btn.png" width="81" height="81"/>
+        <image name="picture_box.png" width="88" height="88"/>
+        <image name="profile_icon.png" width="24" height="24"/>
+        <image name="radio_checked.png" width="16" height="16"/>
+        <image name="radio_checked01.png" width="17" height="17"/>
+        <image name="radio_unchecked.png" width="16" height="16"/>
+        <image name="radio_unchecked01.png" width="17" height="17"/>
+        <image name="rate_app_icon.png" width="24" height="18"/>
+        <image name="request_ride_icon.png" width="29" height="17"/>
+        <image name="schedule_route_icon.png" width="15" height="16"/>
+        <image name="schedules_icon.png" width="22" height="19"/>
+        <image name="search_icon.png" width="15" height="15"/>
+        <image name="sedan_car.png" width="45" height="20"/>
+        <image name="select_star.png" width="17" height="16"/>
+        <image name="set_pin_btn.png" width="251" height="63"/>
+        <image name="share_app_icon.png" width="21" height="21"/>
+        <image name="shofer_wallet_icon.png" width="23" height="18"/>
+        <image name="small_input_line.png" width="227" height="1"/>
+        <image name="suv_car.png" width="37" height="21"/>
+        <image name="track_location_icon.png" width="32" height="32"/>
+        <image name="update_btn.png" width="251" height="33"/>
+        <image name="close_circle_button.png" width="111" height="111"/>
+        <image name="github_octocat.png" width="133.5" height="115.5"/>
+        <image name="person.jpeg" width="400" height="400"/>
+        <image name="login_bg.png" width="320" height="568"/>
+        <image name="signup_bg.png" width="320" height="568"/>
+        <image name="logo.png" width="94" height="115"/>
+        <image name="next_btn01.png" width="81" height="81"/>
+        <image name="next_btn02.png" width="81" height="79"/>
+        <image name="btn-back.png" width="55" height="20"/>
+    </resources>
+</document>

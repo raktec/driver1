@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+xmlns:base="clr-namespace:Shofar;assembly=Shofar"
+xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar"
+    x:Class="Shofar.Driver.DriverRegisterPage2" Title= "">
+         <ContentPage.Resources>
+            <ResourceDictionary>
+                <Style x:Key="EntryStyle" TargetType="Entry">
+                    <Setter Property="BackgroundColor" Value="Transparent" />
+                </Style>
+            </ResourceDictionary>
+        </ContentPage.Resources>
+        <ContentPage.Content>
+            <AbsoluteLayout>
+
+            
+            <RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+             <!--<Image Source="signup_bg.png" BackgroundColor="Brown" Aspect="AspectFill"
+                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height,Factor=0.0,Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1.0,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1.0,Constant=0}" />
+-->
+                <StackLayout Orientation="Vertical" 
+                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1.0,Constant=0}"
+                    RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1.0,Constant=0}" >
+                    <ScrollView >
+
+                        <StackLayout VerticalOptions="CenterAndExpand"  HorizontalOptions="FillAndExpand" Orientation="Vertical"  Margin="0,20,0,0"  >
+
+                            <StackLayout VerticalOptions="Center"  HorizontalOptions="FillAndExpand" Orientation="Horizontal"  Margin="0,0,0,10" >
+                            <Image Source="back_arrow.png" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="80" >
+
+                                     <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Tapped ="BackButton_Tapped"    
+                                    />
+                            </Image.GestureRecognizers>
+                                    
+                                </Image>
+                                <Label Text="Register" VerticalOptions="Center" HorizontalOptions="Center" Margin="30,0,10,0" Font="Bold,18" TextColor="Black" WidthRequest="220" />
+                               <Label Text="Step 2 Of 3"  VerticalOptions="End" HorizontalOptions="Center" Margin="10,0,10,0" Font="12" TextColor="Gray" WidthRequest="220" />   
+
+                            </StackLayout>
+
+                          <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}" />
+                              <Label Text="General Info" VerticalOptions="Center" HorizontalOptions="Start" Margin="20,10,10,0" Font="Bold,18" TextColor="#0035aa" WidthRequest="220" />
+
+                            <StackLayout VerticalOptions="CenterAndExpand"   HorizontalOptions="FillAndExpand" Orientation="Vertical"  Margin="20,20,20,10" >
+
+                               <StackLayout VerticalOptions="Center"  HorizontalOptions="FillAndExpand" Orientation="Horizontal"  Margin="0,0,0,10" >
+
+                                 <Image x:Name="ImgPersonal" Source="picture_box.png" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="80"  >
+
+                                     <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                    Tapped ="DriverProfileImage_Tapped"
+                                    />
+                            </Image.GestureRecognizers>
+                                    
+                                </Image>
+                            </StackLayout>
+
+                        <Label Text="PHONE NUMBER" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0" Font="Bold,14" TextColor="Black" />
+                        <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtPhoneNumber"  
+                              Placeholder="Enter Phone Number"  Style="{DynamicResource EntryStyle}" TextColor="#65B3FF"  />
+                        </StackLayout>
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+
+
+                        <Label Text="CITY NAME" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0"  Font="Bold,14" TextColor="Black" />
+                        <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtCityName"  
+                               Placeholder="Enter City Name" Style="{DynamicResource EntryStyle}" TextColor="#65B3FF"  />
+                        </StackLayout>
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+                     
+                          <Label Text="Vehicle Info &amp; Documents" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0" Font="Bold,18" TextColor="#0035aa" WidthRequest="320" />
+
+                                <Label Text="VEHICLE TYPE" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0" Font="Bold,14" TextColor="Black" />
+                        <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtVehicleType"  
+                               Placeholder="Enter your Vehicle Type" Style="{DynamicResource EntryStyle}" TextColor="#65B3FF"    />
+                        </StackLayout>
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}" />
+                         <Label Text="VEHICLE MODEL" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0" Font="Bold,14" TextColor="Black" />
+                        <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtVehicleModel"  
+                               Placeholder="Enter your Vehicle Model" Style="{DynamicResource EntryStyle}" TextColor="#65B3FF"    />
+                        </StackLayout>
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}" />
+                         <Label Text="VEHICLE NUMBER" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0" Font="Bold,14" TextColor="Black" />
+                        <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtVehicleNumber"  
+                               Placeholder="Enter your Vehicle Number" Style="{DynamicResource EntryStyle}" TextColor="#65B3FF"    />
+                        </StackLayout>
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}" />
+                        <Label Text="DRIVER LICENCE" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0" Font="Bold,14" TextColor="Black" />
+
+                           <StackLayout VerticalOptions="Center"  HorizontalOptions="FillAndExpand" Orientation="Horizontal"  Margin="0,0,0,10" >
+
+                                 <Image x:Name="DriverLicenseImage" Source="picture_box.png" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="80" >
+
+                                     <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                    Tapped ="DriverLicenseImage_Tapped"
+                                    />
+                            </Image.GestureRecognizers>
+                                    
+                                </Image>
+                            </StackLayout>
+                       <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}" />
+
+                       <Label Text="VEHICLE REGISTRATION DOCUMENT" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,10,10,0" Font="Bold,14" TextColor="Black" />
+
+                           <StackLayout VerticalOptions="Center"  HorizontalOptions="FillAndExpand" Orientation="Horizontal"  Margin="0,0,0,10" >
+
+                                 <Image x:Name="VehicleDocumentImage" Source="picture_box.png" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="80" >
+
+                                     <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                    Tapped ="VehicleDocumentImage_Tapped"
+                                    />
+                            </Image.GestureRecognizers>
+                                    
+                                </Image>
+                            </StackLayout>
+                   <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}" />
+
+                        <Image Source="next_btn01.png" HorizontalOptions="Center" VerticalOptions="Center"  >
+                            <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                    Tapped ="NextButton_TappedAsync"
+                                    />
+                            </Image.GestureRecognizers>
+                         </Image>
+                            </StackLayout>
+                             
+                     
+                        <!--<Button Clicked="Handle_Clicked" Margin="0, 10, 0, 0"  Font="16" BackgroundColor="Transparent"  Image="next_btn.png"   />-->
+                          
+                    </StackLayout> 
+                       </ScrollView>
+                </StackLayout>
+
+            </RelativeLayout>
+             <!--<RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsLoading}" BackgroundColor="#55000000" >
+             <ActivityIndicator IsVisible="{Binding IsLoading}"
+                               IsRunning="{Binding IsLoading}"
+                               Color="White"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="CenterAndExpand"
+                               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
+                                        Property=Height,
+                                        Factor=0.25}"
+                               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+                                        Property=Height,
+                                        Factor=0.50}" />
+                </RelativeLayout>-->
+
+              <RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsLoading}" BackgroundColor="#55000000">
+            <ActivityIndicator IsVisible="{Binding IsLoading}" IsRunning="{Binding IsLoading}" Color="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,&#xA;                                    Property=Height,&#xA;                                    Factor=0.25}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,&#xA;                                    Property=Height,&#xA;                                    Factor=0.50}" />
+        </RelativeLayout>
+                    
+                </AbsoluteLayout>
+        </ContentPage.Content>
+    </base:BasePage>

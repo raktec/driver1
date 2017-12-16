@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:base="clr-namespace:Shofar;assembly=Shofar"
+    x:Class="Shofar.BookingDetailsPage" Title="Booking Details">
+	<base:BasePage.Content>
+        <ScrollView >
+        <StackLayout  BackgroundColor="White" Orientation="Vertical">
+        <Label Text ="Booking Fair" Margin="10,15,10,10" TextColor="Blue" FontSize="20" HorizontalOptions="Center"/>
+        <Label Text ="Rs. 380" Margin="10,0,10,5" TextColor="Red" FontSize="30" HorizontalOptions="Center"/>
+        <Label Text ="Pickup Location" Margin="10,15,10,5" TextColor="Blue" FontSize="20" HorizontalOptions="Center"/>
+        <Label x:Name="txtPickup"  Text ="sdfhksdf dsh dshfjkd fjd  s fjshkjds" Margin="10,0,10,5" TextColor="Gray" FontSize="18" HorizontalOptions="Center"/>
+                <Label Text ="Destination" Margin="10,15,10,5" TextColor="Blue" FontSize="20" HorizontalOptions="Center"/>
+        <Label  x:Name="txtDestination" Text ="sdfhksdf dsh dshfjkd fjd  s fjshkjds" Margin="10,0,10,5" TextColor="Gray" FontSize="18" HorizontalOptions="Center"/>
+                <Label Text ="Approx Distance" Margin="10,15,10,5" TextColor="Blue" FontSize="20" HorizontalOptions="Center"/>
+        <Label  x:Name="txtDistance" Text ="sdfhksdf dsh dshfjkd fjd  s fjshkjds" Margin="10,0,10,5" TextColor="Gray" FontSize="18" HorizontalOptions="Center"/>
+                <Label Text ="Code Word" Margin="10,15,10,5" TextColor="Blue" FontSize="20" HorizontalOptions="Center"/>
+        <Label  x:Name="txtCodeword" Text ="sdfhksdf dsh dshfjkd fjd  s fjshkjds" Margin="10,0,10,5" TextColor="Gray" FontSize="18" HorizontalOptions="Center"/>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="EndAndExpand" BackgroundColor ="Lime" x:Name="btnNext" HeightRequest="50" >
+                    <Label Text="Confirm" HorizontalOptions= "Fill" VerticalOptions="CenterAndExpand" Margin="10"/>
+                <Image Source="next_arrow.png" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Margin="10" />
+
+                </StackLayout>
+        </StackLayout>
+        </ScrollView>
+	</base:BasePage.Content>
+</base:BasePage>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage xmlns="http://xamarin.com/schemas/2014/forms" 
+     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:Shofar;assembly=Shofar"
+     xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar"
+    x:Class="Shofar.BookingOptionsPage">
+	<base:BasePage.Content>
+        <StackLayout  BackgroundColor="White" Orientation="Vertical">
+        <Label Text ="Set as Schedule Ride" Margin="10,15,10,15" TextColor="Blue" FontSize="20"/>
+            <StackLayout Orientation="Horizontal" x:Name="rbDaily" >
+            <Image Source="radio_checked01.png" Margin="10, 2, 5, 5" x:Name="imgDaily" />
+                <Label Text="Daily" VerticalOptions="Center" TextColor="Gray" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" x:Name="rbDailyNotHoliday" >
+            <Image Source="radio_unchecked01.png" Margin="10, 2, 5, 5" x:Name="imgDailyNotHoliday" />
+                <Label Text="Daily but not on holiday" VerticalOptions="Center" TextColor="Gray" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" x:Name="rbWeekly">
+            <Image Source="radio_unchecked01.png" Margin="10, 2, 5, 5" x:Name="imgWeekly" />
+                <Label Text="Weekly" VerticalOptions="Center" TextColor="Gray" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" x:Name="rbBusinessDays" >
+            <Image Source="radio_unchecked01.png" Margin="10, 2, 5, 5" x:Name="imgBusinessDays" />
+                <Label Text="Monday to Friday in Week" VerticalOptions="Center" TextColor="Gray" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" x:Name="rbSunday">
+            <Image Source="radio_unchecked01.png" Margin="10, 2, 5, 5" x:Name="imgSunday" />
+                <Label Text="Every Sunday" VerticalOptions="Center" TextColor="Gray" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" x:Name="rbMonthly">
+            <Image Source="radio_unchecked01.png" Margin="10, 2, 5, 5" x:Name="imgMonthly"/>
+                <Label Text="Monthly" VerticalOptions="Center" TextColor="Gray" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" x:Name="rbCustom" >
+            <Image Source="radio_unchecked01.png" Margin="10, 2, 5, 5" x:Name="imgCustom" />
+                <Label Text="Custom" VerticalOptions="Center" TextColor="Gray" />
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" >
+            <local:CustomTextField  VerticalOptions="StartAndExpand" 
+                HorizontalOptions="Fill" x:Name="txtEmail" 
+                Placeholder="Set Custom Date &amp; Time" 
+                Keyboard="Email" Margin="35, 2, 10, 5"
+             TextColor="#65B3FF"  />
+            <StackLayout BackgroundColor="Navy" Margin="35, 0, 10, 5" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+            </StackLayout>
+            <Label Text ="Set Code Word" Margin="10,15,10,15" TextColor="Blue" FontSize="20"/>
+            <StackLayout Orientation="Vertical" >
+            <local:CustomTextField  VerticalOptions="StartAndExpand" 
+                HorizontalOptions="Fill" x:Name="txtCode" 
+                Placeholder="Enter Your Code Word" 
+                Keyboard="Email" Margin="35, 2, 10, 5"
+             TextColor="#65B3FF"  />
+            <StackLayout BackgroundColor="Navy" Margin="35, 0, 10, 5" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+            </StackLayout>
+
+
+             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="EndAndExpand" BackgroundColor ="Lime" x:Name="btnNext" HeightRequest="50" >
+                    <Label Text="Skip / Proceed" HorizontalOptions= "Fill" VerticalOptions="CenterAndExpand" Margin="10"/>
+                <Image Source="next_arrow.png" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Margin="10" />
+
+                </StackLayout>
+            <!--<local:CustomTextField  VerticalOptions="StartAndExpand" 
+                HorizontalOptions="Fill" x:Name="txtCode" 
+                Placeholder="Set Custom Date and Time" 
+                Keyboard="Enter Your Code Word" 
+             TextColor="#65B3FF"  />
+            <StackLayout BackgroundColor="#0D4B8A" Orientation="Horizontal" HorizontalOptions="Fill" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>-->
+            
+            
+        </StackLayout>
+	</base:BasePage.Content>
+</base:BasePage>

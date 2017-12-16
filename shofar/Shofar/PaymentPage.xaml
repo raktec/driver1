@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:Shofar;assembly=Shofar"
+    xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar"
+    x:Class="Shofar.PaymentPage" Title="Payment">
+	<base:BasePage.Content>
+        <StackLayout  BackgroundColor="White" Orientation="Vertical" Margin="5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+        <StackLayout  BackgroundColor="White" Orientation="Horizontal" Margin="5"  >
+        <StackLayout Orientation="Horizontal"  Margin="5" x:Name="rbShofarWallet">
+            <Image Source="radio_unchecked01.png" Margin="10, 2, 5, 5" x:Name="imgShofarWallet" />
+                <Label Text="Shofar wallet" VerticalOptions="Center" TextColor="Gray" />
+            </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="5" x:Name="rbCreditDebitCard">
+            <Image Source="radio_unchecked01.png" Margin="10, 2, 5, 5" x:Name="imgCredidDebitCard" />
+                <Label Text="Credit/Debit Card" VerticalOptions="Center" TextColor="Gray" />
+            </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" >
+                <Label Text="Card Number" Margin="20,5, 10, 5" />
+            <local:CustomTextField  VerticalOptions="StartAndExpand" 
+                HorizontalOptions="Fill" x:Name="txtCardNumber" 
+                Placeholder="Enter Your Code Word" 
+                Keyboard="Email" Margin="20, 2, 10, 5"
+             TextColor="#65B3FF"  />
+            <StackLayout BackgroundColor="Navy" Margin="20, 0, 10, 5" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical"  >
+                <Label Text="NAME ON CARD" Margin="20,5, 10, 5" />
+            <local:CustomTextField  VerticalOptions="StartAndExpand" 
+                HorizontalOptions="FillAndExpand" x:Name="txtNameOnCard"  
+                Placeholder="Enter Your Code Word" 
+                Keyboard="Email" Margin="20, 2, 10, 5"
+             TextColor="#65B3FF"  />
+            <StackLayout BackgroundColor="Navy" Margin="20, 0, 10, 5" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+            </StackLayout>
+
+            <Label Text="Expiry Date" Margin="20,5, 10, 5" />
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"  >
+                
+            <local:CustomTextField  VerticalOptions="Fill" 
+                HorizontalOptions="FillAndExpand"  
+                Placeholder="Month"  x:Name="txtMonth"
+                Keyboard="Email" Margin="20, 2, 10, 5"
+             TextColor="#65B3FF"   />
+            <StackLayout BackgroundColor="Navy" Margin="20, 0, 10, 5" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+            </StackLayout>
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Start" >
+
+            <local:CustomTextField  VerticalOptions="StartAndExpand" 
+                HorizontalOptions="Fill"  
+                Placeholder="Year" x:Name="txtYear"
+                Keyboard="Email" Margin="20, 2, 10, 5"
+             TextColor="#65B3FF"  />
+            <StackLayout BackgroundColor="Navy" Margin="20, 0, 10, 5" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+            </StackLayout>
+
+            </StackLayout>
+            
+
+            
+            <StackLayout Orientation="Vertical" >
+                <Label Text="CVV" Margin="20,5, 10, 5" />
+            <local:CustomTextField  VerticalOptions="StartAndExpand" 
+                HorizontalOptions="Fill"  x:Name="txtCVV"
+                Placeholder="Enter Your Code Word" 
+                Keyboard="Email" Margin="20, 2, 10, 5"
+             TextColor="#65B3FF"  />
+            <StackLayout BackgroundColor="Navy" Margin="20, 0, 10, 5" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="EndAndExpand" BackgroundColor ="Lime" x:Name="btnNext" HeightRequest="50" Margin="-10" >
+                    <Label Text="Done" HorizontalOptions= "Fill" VerticalOptions="CenterAndExpand" Margin="10"/>
+                <Image Source="next_arrow.png" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Margin="10" />
+
+                </StackLayout>
+        </StackLayout>
+
+	</base:BasePage.Content>
+</base:BasePage>

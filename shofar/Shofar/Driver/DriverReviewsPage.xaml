@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:Shofar;assembly=Shofar"
+    xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar"
+    x:Class="Shofar.Driver.DriverReviewsPage" Title="Reviews ">
+
+    <base:BasePage.Content>
+        <StackLayout BackgroundColor="White" Orientation="Vertical" HorizontalOptions="FillAndExpand" 
+            VerticalOptions="FillAndExpand">
+            <ListView ItemSelected="Handle_ItemSelected" CachingStrategy="RecycleElement" 
+                x:Name="lstDriveReview" HasUnevenRows="true" Margin="5" SeparatorVisibility="None" >
+                <ListView.ItemTemplate >
+                    <DataTemplate >
+                        <ViewCell  >
+                            <StackLayout Orientation="Horizontal" BackgroundColor="#F4F6F7" 
+                                VerticalOptions="FillAndExpand" Padding="10"  >
+                                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+                                <Label Text="{Binding DisplayRideId}" FontAttributes="Bold" TextColor="#1263B4" />
+                                <Label Text="{Binding DisplayRideName}" FontAttributes="Bold"  />
+                                <Label Text="{Binding DisplayRating}" FontAttributes="Bold"  />
+                                <Label Text="{Binding DisplayReview}"  FontAttributes="Bold" Style="{DynamicResource BodyStyle}" />
+
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </base:BasePage.Content>
+
+</base:BasePage>

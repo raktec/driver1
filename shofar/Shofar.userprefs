@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{FB4B6C5D-4046-42D8-BE27-32AEDF6C2C9C}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Shofar/Driver/DriverFinalPricePage.xaml.cs" Line="107" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Shofar.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MultiItemStartupConfigurations />
+</Properties>
