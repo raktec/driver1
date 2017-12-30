@@ -14,7 +14,7 @@ using Shofar.Driver;
 
 namespace Shofar
 {
-    
+
     public partial class HomePage : BasePage, INotifyPropertyChanged
     {
         Map map;
@@ -28,7 +28,6 @@ namespace Shofar
         Pin pin;
         public Position pickupPosition;
         public Position startpickupPosition;
-
         private Position DestinationPosition;
         private string LocationName;
         private VehicleInfo selectedVechileInfo;
@@ -46,7 +45,7 @@ namespace Shofar
             var nextBtnClick = new TapGestureRecognizer();
             nextBtnClick.Tapped += NextBtnClick_Tapped;
 
-           
+
 
             var carSelectionClicked = new TapGestureRecognizer();
             carSelectionClicked.Tapped += CarSelectionClicked_Tapped;
@@ -70,7 +69,7 @@ namespace Shofar
             btnFinishRide.GestureRecognizers.Add(finishRideClick);
 
 
-           
+
             btnNext.GestureRecognizers.Add(nextBtnClick);
             btnSuv.GestureRecognizers.Add(carSelectionClicked);
             btnMini.GestureRecognizers.Add(carSelectionClicked);
@@ -135,7 +134,7 @@ namespace Shofar
             };*/
 
 
-           // MoveToUserLocation();
+            // MoveToUserLocation();
             LoginResponse loginUser = Application.Current.Properties["userData"] as LoginResponse;
 
             if (loginUser.role_id == "3")
@@ -173,7 +172,7 @@ namespace Shofar
 
         private async void newRideRequesCall(string loginUser)
         {
-           
+
             IsLoading = true;
             WebConnection webconnection = new WebConnection();
             webconnection.On_ResponseRecived += Webconnection_driverbookings_ResponseRecived;
@@ -209,7 +208,7 @@ namespace Shofar
 
             rtitle.Text = "Ride has been started";
 
-           
+
 
 
         }
@@ -224,11 +223,11 @@ namespace Shofar
             var str = $"DestinationPosition:{DestinationPosition.Latitude} ,{DestinationPosition.Longitude} ";
             //DisplayAlert("DestinationPosition", str, "OK");
             btnFinishRide.IsVisible = false;
-           
+
             await DrivergetBasePriceAsync();
 
         }
-       
+
         private async Task DrivergetBasePriceAsync()
         {
             Debug.WriteLine("next button {0} {1}", pickupPosition.Latitude, pickupPosition.Longitude);
@@ -238,7 +237,7 @@ namespace Shofar
             await webconnection.GetVechicleInfo("SUV", "some locaton");
         }
 
-       
+
         void Webconnection_BasePrice_ResponseRecived(string message, object data)
         {
             var vechileInfo = (List<VehicleInfo>)data;
@@ -257,15 +256,18 @@ namespace Shofar
 
                 paymentPage.VechileInfo1 = selectedVechileInfo;
                 paymentPage.BookingsInfo1 = BookingInfo;
+                paymentPage.startpickupPosition = startpickupPosition;
+                paymentPage.DestinationPosition = DestinationPosition;
 
 
-                    IsLoading = false;
 
-                    // Create new booking
-                   
-                    Navigation.PushAsync(paymentPage);
+                IsLoading = false;
 
-              
+                // Create new booking
+
+                Navigation.PushAsync(paymentPage);
+
+
 
             }
 
@@ -290,8 +292,8 @@ namespace Shofar
             startpickupPosition =
                 new Position(position.Latitude, position.Longitude);
             var str = $"DestinationPosition:{startpickupPosition.Latitude} ,{startpickupPosition.Longitude} ";
-           // DisplayAlert("DestinationPosition", str, "OK");
-            
+            // DisplayAlert("DestinationPosition", str, "OK");
+
             webconnection.On_ResponseRecived += Webconnection_StartRide_ResponseRecived;
             await webconnection.Changebookingstatus(BookingInfo.booking_id, "2");
 
@@ -319,13 +321,14 @@ namespace Shofar
             var phonenumber = BookingInfo.phone;
 
             if (phoneDialer.CanMakePhoneCall)
-            phoneDialer.MakePhoneCall(phonenumber);
+                phoneDialer.MakePhoneCall(phonenumber);
         }
 
 
 
-        void AcceptButton_click(){
-            
+        void AcceptButton_click()
+        {
+
             SlRideAccept.IsVisible = true;
             //RserId.Text = $"RiderId : {BookingInfo.user_id}";
             Rname.Text = BookingInfo.fullname;
@@ -333,8 +336,8 @@ namespace Shofar
             RpickupAddress.Text = BookingInfo.pickup_address;
             RdropAddress.Text = BookingInfo.drop_address;
             Rcodeword.Text = BookingInfo.codeword;
-            Rdistance.Text = $"{BookingInfo.distance} km";;
-          
+            Rdistance.Text = $"{BookingInfo.distance} km"; ;
+
 
             PickUpPoint();
             DropPoint();
@@ -345,7 +348,7 @@ namespace Shofar
 
         void DeclineButton_click()
         {
-            
+
         }
 
         private async void DriverBookingAccept()
@@ -367,7 +370,7 @@ namespace Shofar
             //    driverRiderInfoPage.BookingsInfo = BookingInfo;
 
             //    Navigation.PushPopupAsync(driverRiderInfoPage);
-              
+
             //    btnArrivedNow.IsVisible = true;
 
             //});
@@ -404,10 +407,11 @@ namespace Shofar
                 Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
                 map.MoveToRegion(MapSpan.FromCenterAndRadius(pickupPosition, Distance.FromMiles(3))));
                 pin = new Pin()
-                { Type = PinType.Place,
+                {
+                    Type = PinType.Place,
                     Position = new Position(pick_Up_Lat, pick_Up_Long),
                     Label = address
-                                       
+
                 };
 
 
@@ -424,12 +428,13 @@ namespace Shofar
         {
             var drop_Lat = double.Parse(BookingInfo.drop_lat);
             var drop_Long = double.Parse(BookingInfo.drop_long);
-            var address = BookingInfo.drop_address;  
+            var address = BookingInfo.drop_address;
 
-            if(BookingInfo.drop_address =="Dholpur"){
+            if (BookingInfo.drop_address == "Dholpur")
+            {
                 drop_Lat = double.Parse("26.7025");
                 drop_Long = double.Parse("77.8934");
-                address = BookingInfo.drop_address;  
+                address = BookingInfo.drop_address;
             }
 
 
@@ -454,7 +459,7 @@ namespace Shofar
                 Debug.WriteLine("Position Latitude: {0}", ex.Message);
             }
 
-           
+
         }
 
 
@@ -549,11 +554,11 @@ namespace Shofar
                 Debug.WriteLine("Position Longitude: {0}", position.Longitude);
                 pickupPosition =
                     new Position(position.Latitude, position.Longitude);
-                
+
 
                 Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
                 map.MoveToRegion(MapSpan.FromCenterAndRadius(pickupPosition, Distance.FromMiles(3))));
-                
+
             }
             catch (Exception ex)
             {
@@ -651,6 +656,6 @@ namespace Shofar
             Debug.WriteLine(selectedCar);
         }
 
-       
+
     }
 }

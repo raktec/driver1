@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{FB4B6C5D-4046-42D8-BE27-32AEDF6C2C9C}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shofar/HomePage.xaml.cs">
     <Files>
-      <File FileName="Shofar/Driver/DriverFinalPricePage.xaml.cs" Line="107" Column="1" />
+      <File FileName="Shofar/HomePage.xaml" Line="98" Column="17" />
+      <File FileName="Shofar/HomePage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />

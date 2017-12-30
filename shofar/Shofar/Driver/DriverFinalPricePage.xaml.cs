@@ -8,16 +8,18 @@ using Xamarin.Forms;
 using Xamarians.Media;
 using System.IO;
 using System.Net.Http;
+using Xamarin.Forms.Maps;
 
 namespace Shofar.Driver
 {
 
     public partial class DriverFinalPricePage : BasePage, INotifyPropertyChanged
     {
-       
+
         internal VehicleInfo VechileInfo1 { get; set; }
         internal Bookings BookingsInfo1 { get; set; }
-
+        public Position startpickupPosition { get; set; }
+        public Position DestinationPosition { get; set; }
 
         private bool isLoading;
         public new event PropertyChangedEventHandler PropertyChanged;
@@ -42,7 +44,7 @@ namespace Shofar.Driver
         }
 
 
-       
+
 
 
 
@@ -55,9 +57,9 @@ namespace Shofar.Driver
             var requestPaymentClick = new TapGestureRecognizer();
             requestPaymentClick.Tapped += RequestBtnClick_Tapped;
             btnRequestPayment.GestureRecognizers.Add(requestPaymentClick);
-           
 
-           
+
+
         }
 
         protected override void OnAppearing()
@@ -65,38 +67,44 @@ namespace Shofar.Driver
             base.OnAppearing();
             setData();
 
-           
+
         }
 
-        private  void RequestBtnClick_Tapped(object sender, EventArgs e)
+        private void RequestBtnClick_Tapped(object sender, EventArgs e)
         {
-           
+
             DisplayAlert("ThankYou", "Payment Requesr Sent ", "OK");
 
 
         }
-       
 
-        void setData(){
-           
+
+        void setData()
+        {
+
             Title = $"Booking ID: {BookingsInfo1.booking_id}";
-            var pick_Up_Lat = double.Parse(BookingsInfo1.pickup_lat);
-            var pick_Up_Long = double.Parse(BookingsInfo1.pickup_long);
-            var drop_Lat = double.Parse(BookingsInfo1.drop_lat);
-            var drop_Long = double.Parse(BookingsInfo1.drop_long);
+            //var pick_Up_Lat = double.Parse(BookingsInfo1.pickup_lat);
+            //var pick_Up_Long = double.Parse(BookingsInfo1.pickup_long);
+            //var drop_Lat = double.Parse(BookingsInfo1.drop_lat);
+            //var drop_Long = double.Parse(BookingsInfo1.drop_long);
+            var pick_Up_Lat = startpickupPosition.Latitude;
+            var pick_Up_Long = startpickupPosition.Longitude;
+            var drop_Lat = DestinationPosition.Latitude;
+            var drop_Long = DestinationPosition.Longitude;
             var perkmcharge = double.Parse(VechileInfo1.per_km_charge);
+
             var distance = Utility.Distance(pick_Up_Lat, pick_Up_Long,
                                             drop_Lat, drop_Long, 'K');
-            
+
             var picupaddress = BookingsInfo1.pickup_address;
             var total = distance * perkmcharge;
-            var dropaddress =  BookingsInfo1.drop_address;
+            var dropaddress = BookingsInfo1.drop_address;
 
             txtFare.Text = String.Format("Rs {0:0.00}", total);
             txtPickupPoint.Text = picupaddress;
             txtDropPoint.Text = dropaddress;
             txtBasicFare.Text = $"Rs {perkmcharge.ToString()}/km";
-            txtDistance.Text = String.Format("{0:0.00}", distance) ;
+            txtDistance.Text = String.Format("{0:0.00}", distance);
             txtCarName.Text = VechileInfo1.name;
         }
 
