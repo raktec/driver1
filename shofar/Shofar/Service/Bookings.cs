@@ -27,40 +27,38 @@ namespace Shofar.Service
         public string email { get; set; }
         public string phone { get; set; }
         public string distance { get; set; }
+        public string DisplayId { get { return $"Booking Id : {id}"; }}
+        public string DisplayBookingDate { get {
+                var bookingDateTime = DateTime.Parse(booking_date);
+                return $"{bookingDateTime : dddd, dd MMMM yyyy} {booking_time}"; }}
+        
+        public string DisplayBookingText { get { return $"{pickup_address} to {drop_address}"; } }
+        public string displayAmonunt { get { return $"Rs. {Convert.ToDouble(amount) : 0.00}"; } }
+        public string DisplayDistance { get { return $"{distance} kms"; }}
+        public string drivername { get; set; }
+        public string car_number { get; set; }
+        public string driver_phone { get; set; }
+        public string photo { get; set; }
+        public string vehicle_name { get; set; }
+        public string codeword { get; set; }
         public string firstname { get; set; }
         public string lastname { get; set; }
         public string fullname { get { return firstname + " " + lastname; } }
-        public string codeword { get; set; }
         public string userid { get; set; }
         public string bookingid { get; set; }
 
-
-        public string DisplayId { get { return $"Booking Id : {id}"; } }
-        public string DisplayBookingDate
-        {
-            get
-            {
-                var bookingDateTime = DateTime.Parse(booking_date);
-                return $"{bookingDateTime: dddd, dd MMMM yyyy} {booking_time}";
-            }
-        }
-
-        public string DisplayBookingText { get { return $"{pickup_address} to {drop_address}"; } }
-        public string displayAmonunt { get { return $"Rs. {Convert.ToDouble(amount): 0.00}"; } }
-        public string DisplayDistance { get { return $"{distance} kms"; } }
-
         public Bookings()
         {
-
+            
         }
 
-        public async Task GetBookings(string Id)
-        {
+		public async Task GetBookings(string Id)
+		{
 
-            var formContent = new FormUrlEncodedContent(new[]
-            {
+			var formContent = new FormUrlEncodedContent(new[]
+			{
                 new KeyValuePair<string, string>("id", Id),
-            });
+			});
 
             var response = await CallService<Bookings[]>(formContent, "history");
             if (response.Item1 != null && response.Item1.Length > 0)
@@ -68,12 +66,11 @@ namespace Shofar.Service
                 List<Bookings> lstbooking = ConvertToList(response.Item1);
                 CallSuccesEvent(response.Item2, lstbooking);
             }
-            else
-            {
+            else{
                 CallSuccesEvent(response.Item2, response.Item1);
             }
 
-        }
+		}
 
         public async Task GetScheduleBookings(string Id)
         {

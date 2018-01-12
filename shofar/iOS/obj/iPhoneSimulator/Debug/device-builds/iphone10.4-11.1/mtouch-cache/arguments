@@ -1,6 +1,6 @@
-# Version: 11.6.1.2 (xcode9.2: 6857dfcc)
+# Version: 11.6.1.3 (xcode9.2: f70a1348)
 # [first argument, ignore] # --cache
-/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mtouch/mtouch.exe \
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.3/lib/mtouch/mtouch.exe \
 	/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/mtouch-cache \
 	--sim \
 	/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/iOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/Shofar.iOS.app \
@@ -389,7 +389,11 @@
 	-r \
 	/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
+	/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Media.Abstractions.dll \
+	-r \
 	/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Newtonsoft.Json.dll \
+	-r \
+	/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Media.dll \
 	-r \
 	/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \

@@ -10,8 +10,6 @@ namespace Shofar
     {
         public ListView ListView { get { return listView; } }
 
-
-
         public MenuPage()
         {
             InitializeComponent();
@@ -25,7 +23,7 @@ namespace Shofar
                 {
                     Title = "Go Online",
                     IconSource = "profile_icon.png",
-                    TargetType = typeof(HomePage)
+                    TargetType = typeof(DriverHomePage)
                 });
                 masterPageItems.Add(new MasterPageItem
                 {
@@ -68,6 +66,12 @@ namespace Shofar
                     IconSource = "history_icon.png",
                     TargetType = typeof(BookingHistory)
                 });
+                masterPageItems.Add(new MasterPageItem
+                {
+                    Title = "Rate the App",
+                    IconSource = "rate_app_icon.png",
+                    TargetType = typeof(HomePage)
+                });
 
             }
 
@@ -84,12 +88,7 @@ namespace Shofar
                 IconSource = "help_icon.png",
                 TargetType = typeof(HelpPage)
             });
-            masterPageItems.Add(new MasterPageItem
-            {
-                Title = "Rate the App",
-                IconSource = "rate_app_icon.png",
-                TargetType = typeof(HomePage)
-            });
+           
             masterPageItems.Add(new MasterPageItem
             {
                 Title = "Share App",

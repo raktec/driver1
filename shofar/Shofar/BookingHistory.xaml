@@ -18,12 +18,12 @@
                                 <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
                                 <Label Text="{Binding DisplayId}" FontAttributes="Bold" TextColor="#1263B4" />
                                 <Label Text="{Binding DisplayBookingDate}" FontSize="12" TextColor="#8B9197" Margin="0, -2,0,0"  />
-                                <Label Text="{Binding DisplayBookingText}" Margin="0,5,0,5" />
-                                <Label Text="{Binding displayAmonunt}" FontAttributes="Bold" TextColor="#F45959" />
+                                <Label Text="{Binding DisplayBookingText}" Margin="0,5,0,5"  FontSize="14" />
+                                <Label Text="{Binding displayAmonunt}" FontAttributes="Bold" TextColor="#F45959" FontSize="14" />
                                 </StackLayout>
 
                                 <StackLayout Orientation="Vertical" VerticalOptions="Center" >
-                                    <Label Text="48 km" FontSize="18" FontAttributes= "Bold"  HorizontalOptions="FillAndExpand" Margin="5" TextColor="#01F11E" BackgroundColor= "#125EAA" />
+                                    <Label Text="{Binding DisplayDistance}" FontSize="18" FontAttributes= "Bold"  HorizontalOptions="FillAndExpand" Margin="5" TextColor="#1263B4"  />
                                 <!--<Label Text="Rs. 380" FontSize="10" FontAttributes= "Bold" HorizontalTextAlignment="Center"/>-->
                                 </StackLayout>
                             

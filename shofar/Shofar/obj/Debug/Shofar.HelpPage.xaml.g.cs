@@ -11,15 +11,9 @@
 namespace Shofar {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/Hel" +
-        "pPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/He" +
+        "lpPage.xaml")]
     public partial class HelpPage : global::Shofar.BasePage {
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.RelativeLayout MainRelativeLayout;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Image MainBackImage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label lblAboutUs;
@@ -27,8 +21,6 @@ namespace Shofar {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HelpPage));
-            MainRelativeLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.RelativeLayout>(this, "MainRelativeLayout");
-            MainBackImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "MainBackImage");
             lblAboutUs = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblAboutUs");
         }
     }

@@ -11,8 +11,8 @@
 namespace Shofar.Driver {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/Dri" +
-        "ver/DriverRegisterPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/Dr" +
+        "iver/DriverRegisterPage.xaml")]
     public partial class DriverRegisterPage : global::Shofar.BasePage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -5,7 +5,10 @@
     xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar"
     x:Class="Shofar.PaymentPage" Title="Payment">
 	<base:BasePage.Content>
-        <StackLayout  BackgroundColor="White" Orientation="Vertical" Margin="5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+        <AbsoluteLayout>
+            <RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+        <StackLayout  BackgroundColor="White" Orientation="Vertical" Margin="5" VerticalOptions="FillAndExpand" 
+                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1.0,Constant=0}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1.0,Constant=0}" HorizontalOptions="FillAndExpand" >
         <StackLayout  BackgroundColor="White" Orientation="Horizontal" Margin="5"  >
         <StackLayout Orientation="Horizontal"  Margin="5" x:Name="rbShofarWallet">
             <Image Source="radio_unchecked01.png" Margin="10, 2, 5, 5" x:Name="imgShofarWallet" />
@@ -21,7 +24,7 @@
                 <Label Text="Card Number" Margin="20,5, 10, 5" />
             <local:CustomTextField  VerticalOptions="StartAndExpand" 
                 HorizontalOptions="Fill" x:Name="txtCardNumber" 
-                Placeholder="Enter Your Code Word" 
+                Placeholder="Enter Your Card Number" 
                 Keyboard="Email" Margin="20, 2, 10, 5"
              TextColor="#65B3FF"  />
             <StackLayout BackgroundColor="Navy" Margin="20, 0, 10, 5" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
@@ -31,7 +34,7 @@
                 <Label Text="NAME ON CARD" Margin="20,5, 10, 5" />
             <local:CustomTextField  VerticalOptions="StartAndExpand" 
                 HorizontalOptions="FillAndExpand" x:Name="txtNameOnCard"  
-                Placeholder="Enter Your Code Word" 
+                Placeholder="Enter Name on Your Card" 
                 Keyboard="Email" Margin="20, 2, 10, 5"
              TextColor="#65B3FF"  />
             <StackLayout BackgroundColor="Navy" Margin="20, 0, 10, 5" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
@@ -67,7 +70,7 @@
                 <Label Text="CVV" Margin="20,5, 10, 5" />
             <local:CustomTextField  VerticalOptions="StartAndExpand" 
                 HorizontalOptions="Fill"  x:Name="txtCVV"
-                Placeholder="Enter Your Code Word" 
+                Placeholder="Enter Card CVV" 
                 Keyboard="Email" Margin="20, 2, 10, 5"
              TextColor="#65B3FF"  />
             <StackLayout BackgroundColor="Navy" Margin="20, 0, 10, 5" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
@@ -80,6 +83,10 @@
 
                 </StackLayout>
         </StackLayout>
-
+        <RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsLoading}" BackgroundColor="#55000000" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1.0,Constant=0}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1.0,Constant=0}" >
+                    <ActivityIndicator IsVisible="{Binding IsLoading}" IsRunning="{Binding IsLoading}" Color="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,&#xA;                                    Property=Height,&#xA;                                    Factor=0.25}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,&#xA;                                    Property=Height,&#xA;                                    Factor=0.50}" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </AbsoluteLayout>
 	</base:BasePage.Content>
 </base:BasePage>

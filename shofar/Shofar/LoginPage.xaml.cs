@@ -5,13 +5,14 @@ using Xamarin.Forms;
 using System.ComponentModel;
 using Shofar.Driver;
 
+
 namespace Shofar
 {
     public partial class LoginPage : BasePage, INotifyPropertyChanged
     {
 
-        private bool isLoading;
-        public new event PropertyChangedEventHandler PropertyChanged;
+        //private bool isLoading;
+        //public new event PropertyChangedEventHandler PropertyChanged;
 
         public LoginPage()
         {
@@ -19,31 +20,31 @@ namespace Shofar
             NavigationPage.SetHasNavigationBar(this, false);
 
             #if DEBUG
+               // txtEmail.Text = "testcustomer@gmail.com";
+             //   txtPassword.Text = "User#11";
+            //txtEmail.Text = "raktec@gmail.com";
+            //txtPassword.Text = "raktec786@";
             txtEmail.Text = "abit10001@gmail.com";
             txtPassword.Text = "admin123";
-                 //txtEmail.Text = "raktec@gmail.com";
-                 //txtPassword.Text = "raktec786@";
-           // txtEmail.Text = "ram@gmail.com";
-            //txtPassword.Text = "ram786@";
             #endif
 
             BindingContext = this;
         }
 
-        public bool IsLoading
-        {
-            get { return isLoading; }
-            set
-            {
-                isLoading = value;
-                RaisePropertyChanged("IsLoading");
-            }
-        }
+        //public bool IsLoading
+        //{
+        //    get { return isLoading; }
+        //    set
+        //    {
+        //        isLoading = value;
+        //        RaisePropertyChanged("IsLoading");
+        //    }
+        //}
 
-        private void RaisePropertyChanged(string propName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
-        }
+        //private void RaisePropertyChanged(string propName)
+        //{
+        //    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
+        //}
 
        async void Handle_Tapped(object sender, System.EventArgs e)
         {
@@ -108,7 +109,6 @@ namespace Shofar
 
 
 
-
         public async System.Threading.Tasks.Task CallLoginServiceAsync()
         {
             var service = new Service.WebConnection();
@@ -125,8 +125,19 @@ namespace Shofar
             if (response?.Length > 0)
             {
                 Application.Current.Properties["userData"] = response[0];
-                var slideMenu = new SlideMenuPage();
-                Application.Current.MainPage = slideMenu;
+                LoginResponse loginUser = response[0] as LoginResponse;
+                if (loginUser.role_id == "3")
+                {
+                    var driverSlideMenu = new DriverSlideMenuPage();
+                    Application.Current.MainPage = driverSlideMenu;
+
+                }else{
+                    var slideMenu = new SlideMenuPage();
+                    Application.Current.MainPage = slideMenu;
+                }
+
+
+
             }
             else
             {

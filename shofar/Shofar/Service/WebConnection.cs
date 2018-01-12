@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Xamarians.Media;
 using System.IO;
+using Xamarin.Forms.Maps;
 
 
 
@@ -330,8 +331,24 @@ namespace Shofar.Service
             On_ResponseRecived?.Invoke(message, data);
         }
 
+        public async Task SetPin(string bookingId, Position position)
+        {
+
+            var formContent = new FormUrlEncodedContent(new[]
+            {
+                new KeyValuePair<string, string>("booking_id", bookingId ),
+                new KeyValuePair<string, string>("int_lat", Convert.ToString(position.Latitude)),
+                new KeyValuePair<string, string>("int_long", Convert.ToString(position.Longitude))
+            });
+
+            var response = await CallService<BookingResponse>(formContent, "setpinpoints");
+
+            On_ResponseRecived?.Invoke(response.Item2, response.Item1);
+            //onSuccess_call?.Invoke(response.Item1, response.Item2);
+        }
        
 
 
     }
 }
+  

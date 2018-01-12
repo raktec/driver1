@@ -4,63 +4,12 @@
         <AbsoluteLayout>
             <RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
                 <StackLayout Orientation="Vertical" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1.0,Constant=0}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1.0,Constant=0}" BackgroundColor="#1263B4">
-
-                 <StackLayout BackgroundColor="#1263B4" x:Name="SlRideAccept" IsVisible="false" VerticalOptions="Start"  HorizontalOptions="FillAndExpand" Orientation="Vertical"  Margin="0,0,0,0"  >
-                        <Label Margin="0,5,0,0" x:Name="rtitle" Text="Click Start the Ride" VerticalOptions="Center" HorizontalOptions="Center"  Font="Large,20" TextColor="White" />
-
-                             <StackLayout Orientation="Horizontal">
-                              <StackLayout Orientation="Vertical">
-                               <Label Text="Rider Name" VerticalOptions="Center" WidthRequest="250" HorizontalOptions="Start" Margin="10,0,0,0" Font="Bold,14" TextColor="White" />
-                               <Label x:Name="Rname" WidthRequest="200" Text="It is a long established fact that a reader will be distracted by the ." VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,0,0,0" Font="Small,12" TextColor="Silver" />
-
-                               </StackLayout>
-                                <StackLayout Orientation="Vertical">
-                               <Image  x:Name="btnCallToRider" Source="phone_icon02.png" Margin="50,5,0,0" HorizontalOptions="End" VerticalOptions="Center" WidthRequest="44" HeightRequest="44" >
-                             </Image>
-                               </StackLayout>
-                             </StackLayout>
-                                
-                            
-                             <StackLayout Orientation="Horizontal">
-                              <StackLayout Orientation="Vertical">
-                                <Label Text="Pickup Location" VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,5,0,0" Font="Bold,14" TextColor="White" />
-                            <Label x:Name="RpickupAddress" WidthRequest="200" Text="RJ -14 EC2598" VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,0,0,0" Font="Small,12" TextColor="Silver" />
-
-                               </StackLayout>
-                                <StackLayout Orientation="Vertical">
-                               <Label Text="Distination" VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,5,0,0" Font="Bold,14" TextColor="White" />
-                            <Label x:Name="RdropAddress" WidthRequest="200" Text="RJ -14 EC2598" VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,0,0,0" Font="Small,12" TextColor="Silver" />
-
-                               </StackLayout>
-                             </StackLayout>
-
-                             <StackLayout Orientation="Horizontal">
-                              <StackLayout Orientation="Vertical">
-                              <Label Text="Code Word" VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,5,0,0" Font="Bold,14" TextColor="White" />
-                             <Label x:Name="Rcodeword" WidthRequest="200" Text="TATA SUMO,2016" VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,0,0,0" Font="Small,12" TextColor="Silver" />
-
-                               </StackLayout>
-                                <StackLayout Orientation="Vertical">
-                            <Label  Text="Distance" VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,5,0,0" Font="Bold,14" TextColor="White" />
-                            <Label x:Name="Rdistance" WidthRequest="200" Text="TATA SUMO,2016" VerticalOptions="Center"  HorizontalOptions="Start" Margin="10,0,0,0" Font="Small,12" TextColor="Silver" />
-
-                               </StackLayout>
-                             </StackLayout>
-                             <StackLayout BackgroundColor="Lime" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" IsVisible="false" VerticalOptions="EndAndExpand" x:Name="btnStartRide"  >
-                              <Label Text="Start the Ride" Margin="10" />
-                                </StackLayout>
-                             <StackLayout BackgroundColor="Lime" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" IsVisible="false" VerticalOptions="EndAndExpand" x:Name="btnFinishRide"  >
-                             <Label Text="Finish the Ride" Margin="10" />
-                               </StackLayout>
-                        </StackLayout>
-                    
-                    <StackLayout x:Name="SlSearch" Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Fill">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Fill">
                         <Image Source="search_icon.png" HorizontalOptions="Center" VerticalOptions="Center" Margin="5,5,5,5" />
                         <local:CustomTextField HorizontalOptions="FillAndExpand" Placeholder="Set Pickup Location" TextColor="White" Margin="5,5,5,5" x:Name="txtLocation" />
                     </StackLayout>
-                    
                     <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="mapLayout" Margin="0,0,0,-5" />
-                    <StackLayout x:Name="SlLowaerButton" Orientation="Horizontal" HorizontalOptions="Fill" VerticalOptions="Fill">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" VerticalOptions="Fill">
                         <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="5,5,5,5" x:Name="btnMini">
                             <Image Source="mini_car.png" HorizontalOptions="Center" />
                             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Fill">

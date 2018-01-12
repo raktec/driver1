@@ -7,7 +7,7 @@
         <ScrollView >
         <StackLayout  BackgroundColor="White" Orientation="Vertical">
         <Label Text ="Booking Fair" Margin="10,15,10,10" TextColor="Blue" FontSize="20" HorizontalOptions="Center"/>
-        <Label Text ="Rs. 380" Margin="10,0,10,5" TextColor="Red" FontSize="30" HorizontalOptions="Center"/>
+        <Label Text ="Rs. 380" Margin="10,0,10,5" TextColor="Red" FontSize="30" HorizontalOptions="Center" x:Name="txtFarePrice"/>
         <Label Text ="Pickup Location" Margin="10,15,10,5" TextColor="Blue" FontSize="20" HorizontalOptions="Center"/>
         <Label x:Name="txtPickup"  Text ="sdfhksdf dsh dshfjkd fjd  s fjshkjds" Margin="10,0,10,5" TextColor="Gray" FontSize="18" HorizontalOptions="Center"/>
                 <Label Text ="Destination" Margin="10,15,10,5" TextColor="Blue" FontSize="20" HorizontalOptions="Center"/>

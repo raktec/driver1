@@ -11,8 +11,8 @@
 namespace Shofar {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/Pay" +
-        "mentPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/Pa" +
+        "ymentPage.xaml")]
     public partial class PaymentPage : global::Shofar.BasePage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

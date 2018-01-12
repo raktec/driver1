@@ -11,8 +11,8 @@
 namespace Shofar {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/Men" +
-        "uPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/Me" +
+        "nuPage.xaml")]
     public partial class MenuPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

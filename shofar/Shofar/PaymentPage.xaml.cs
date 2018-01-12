@@ -6,10 +6,8 @@ using Xamarin.Forms;
 
 namespace Shofar
 {
-   
     public partial class PaymentPage : BasePage
     {
-
         string selectedPaymentType;
         public PaymentPage()
         {
@@ -30,29 +28,29 @@ namespace Shofar
 
         async void NextButtonTapped_Tapped(object sender, EventArgs e)
         {
-            StripePayment();
-            ShoferAppST shoferBooking = ShoferAppST.Instance();
-            shoferBooking.Booking.PaymentType = selectedPaymentType.ToLower() == "shofarwallet" ? "wallet" : "Card";
-            shoferBooking.Booking.CardNumber = txtCardNumber.Text;
-            shoferBooking.Booking.NameOnCard = txtNameOnCard.Text;
-            shoferBooking.Booking.ExpiryMointh = txtMonth.Text;
-            shoferBooking.Booking.ExpiryYear = txtYear.Text;
-            shoferBooking.Booking.CVV = txtCVV.Text;
+            if (StripePayment())
+            {
+                ShoferAppST shoferBooking = ShoferAppST.Instance();
+                shoferBooking.Booking.PaymentType = selectedPaymentType.ToLower() == "shofarwallet" ? "wallet" : "Card";
+                shoferBooking.Booking.CardNumber = txtCardNumber.Text;
+                shoferBooking.Booking.NameOnCard = txtNameOnCard.Text;
+                shoferBooking.Booking.ExpiryMointh = txtMonth.Text;
+                shoferBooking.Booking.ExpiryYear = txtYear.Text;
+                shoferBooking.Booking.CVV = txtCVV.Text;
 
-           
-       
-
-
-            // do booking 
-            WebConnection service = new WebConnection();
-            service.On_ResponseRecived += Service_On_ResponseRecived;
-            await service.DoBooking(shoferBooking.Booking);
+                IsLoading = true;
+                // do booking 
+                WebConnection service = new WebConnection();
+                service.On_ResponseRecived += Service_On_ResponseRecived;
+                await service.DoBooking(shoferBooking.Booking);
+            }
 
            //await Navigation.PushAsync(new FullBookingInformation());
         }
 
         void Service_On_ResponseRecived(string message, object data)
         {
+            IsLoading = false;
             if (data != null)
             {
                 Navigation.PopToRootAsync();
@@ -78,7 +76,7 @@ namespace Shofar
             }
         }
 
-        public void StripePayment()
+        public bool StripePayment()
         {
             /*StripePayment payment = 
                 new StripePayment("pk_test_B7q1c1eyN910W5MQlCnzsUHX");
@@ -91,7 +89,16 @@ namespace Shofar
             string chargeID = charge.ID;
 
             StripeCharge charge_info = payment.GetCharge(chargeID);*/
-
+        
+            if(txtCardNumber.Text.ToString() == "" || txtNameOnCard.Text.ToString() =="" || txtMonth.Text.ToString() =="" || txtYear.Text.ToString() == "" || txtCVV.Text.ToString() == "")
+            {
+                Application.Current.MainPage.DisplayAlert("Shofar", "Please enter all fields", "OK");
+                return false;
+            }
+            else 
+            {
+                return true;
+            }
         }
     }
 }

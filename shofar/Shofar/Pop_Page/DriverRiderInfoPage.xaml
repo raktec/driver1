@@ -5,7 +5,7 @@
     xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
     xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
     xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar">
-    <pages:PopupPage.Resources>
+	<pages:PopupPage.Resources>
     <ResourceDictionary>
       <Style x:Key="EntryStyle" TargetType="Entry">
         <Setter Property="PlaceholderColor" Value="#9cdaf1"/>
@@ -81,5 +81,5 @@
       </ContentView>
     </AbsoluteLayout>
   </ScrollView>
-
+    
 </pages:PopupPage>

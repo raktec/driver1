@@ -7,7 +7,7 @@ namespace Shofar.Driver
 {
     public partial class DriverRegisterPage3 : BasePage
     {
-       
+
 
         public new event PropertyChangedEventHandler PropertyChanged;
         private bool isLoading;

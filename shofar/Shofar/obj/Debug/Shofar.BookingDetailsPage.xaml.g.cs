@@ -11,9 +11,12 @@
 namespace Shofar {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/Boo" +
-        "kingDetailsPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/Bo" +
+        "okingDetailsPage.xaml")]
     public partial class BookingDetailsPage : global::Shofar.BasePage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label txtFarePrice;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label txtPickup;
@@ -33,6 +36,7 @@ namespace Shofar {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(BookingDetailsPage));
+            txtFarePrice = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "txtFarePrice");
             txtPickup = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "txtPickup");
             txtDestination = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "txtDestination");
             txtDistance = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "txtDistance");

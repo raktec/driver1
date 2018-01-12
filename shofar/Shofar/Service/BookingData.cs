@@ -54,5 +54,11 @@ namespace Shofar.Service
         public double Distance { get; internal set; }
         public double KMPrice { get; internal set; }
         public double BasePrice { get; internal set; }
+        public string drivername { get; set; }
+        public string car_number { get; set; }
+        public string driver_phone { get; set; }
+        public string photo { get; set; }
+        public string vehicle_name { get; set; }
+        public string codeword { get; set; }
     }
 }

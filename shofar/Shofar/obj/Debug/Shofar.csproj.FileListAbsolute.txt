@@ -1,292 +1,10 @@
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Shofar.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Shofar.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Xamarin.Forms.Platform.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll.mdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Xamarin.Forms.Platform.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Xamarin.Forms.Platform.dll.mdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.csproj.CoreCompileInputs.cache
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.App.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.ShofarPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.HomePage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.SlideMenuPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.MenuPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.LoginPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.SchedulePage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.csprojResolveAssemblyReference.cache
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.RegisterPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/Shofar/obj/Debug/Shofar.ForgotPasswordPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Shofar.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Shofar.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Newtonsoft.Json.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Plugin.Geolocator.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Rg.Plugins.Popup.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Rg.Plugins.Popup.Platform.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Maps.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Platform.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll.mdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Platform.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Platform.dll.mdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Xamarin.Forms.Maps.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Plugin.Geolocator.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Plugin.Geolocator.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/bin/Debug/Newtonsoft.Json.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.csprojResolveAssemblyReference.cache
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.csproj.CoreCompileInputs.cache
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.App.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.ShofarPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.HomePage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.SlideMenuPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.MenuPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.LoginPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.SchedulePage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.RegisterPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.ForgotPasswordPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.RequestTripPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.Pop_Page.FairEstimatePage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.DestinationPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.BookingOptionsPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.BookingDetailsPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.PaymentPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.FullBookingInformation.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.BookingHistory.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.AboutPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar 30 oct/shofar/Shofar/obj/Debug/Shofar.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Shofar.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Shofar.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Newtonsoft.Json.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Plugin.Geolocator.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Rg.Plugins.Popup.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Rg.Plugins.Popup.Platform.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Maps.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Platform.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Newtonsoft.Json.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Plugin.Geolocator.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Plugin.Geolocator.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll.mdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Maps.xml
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.csprojResolveAssemblyReference.cache
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.csproj.CoreCompileInputs.cache
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.App.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.ShofarPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.HomePage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.SlideMenuPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.MenuPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.LoginPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.SchedulePage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.RegisterPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.ForgotPasswordPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.RequestTripPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.Pop_Page.FairEstimatePage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.DestinationPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.BookingOptionsPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.BookingDetailsPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.PaymentPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.FullBookingInformation.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.BookingHistory.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.AboutPage.xaml.g.cs
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.dll
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.pdb
-/Users/ashandeep/Desktop/Projects/Shofar-App/Code/shofar/shofar/Shofar/obj/Debug/Shofar.HelpPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Shofar.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Shofar.pdb
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Newtonsoft.Json.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Plugin.Geolocator.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Rg.Plugins.Popup.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Rg.Plugins.Popup.Platform.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Maps.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Platform.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/XamarinStripe.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Newtonsoft.Json.xml
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.pdb
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Plugin.Geolocator.pdb
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Plugin.Geolocator.xml
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.pdb
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll.mdb
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.xml
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.pdb
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.xml
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/Xamarin.Forms.Maps.xml
-/Users/ajayverma/Projects/shofar/shofar/Shofar/bin/Debug/XamarinStripe.pdb
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.csproj.CoreCompileInputs.cache
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.App.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.ShofarPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.HomePage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.SlideMenuPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.MenuPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.LoginPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.SchedulePage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.RegisterPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.ForgotPasswordPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.RequestTripPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.Pop_Page.FairEstimatePage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.DestinationPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.BookingOptionsPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.BookingDetailsPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.PaymentPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.FullBookingInformation.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.BookingHistory.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.AboutPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.HelpPage.xaml.g.cs
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.dll
-/Users/ajayverma/Projects/shofar/shofar/Shofar/obj/Debug/Shofar.pdb
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Shofar.dll
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Shofar.pdb
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Newtonsoft.Json.dll
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.dll
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Plugin.Geolocator.dll
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Rg.Plugins.Popup.dll
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Rg.Plugins.Popup.Platform.dll
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarians.Media.dll
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarin.Forms.Maps.dll
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarin.Forms.Platform.dll
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Newtonsoft.Json.xml
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.pdb
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Plugin.Geolocator.pdb
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Plugin.Geolocator.xml
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.pdb
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll.mdb
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.xml
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.pdb
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.xml
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarin.Forms.Maps.xml
-/Users/rakesh/Desktop/shofar/Shofar/bin/Debug/Xamarians.Media.pdb
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.csproj.CoreCompileInputs.cache
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.App.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.ShofarPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.HomePage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.SlideMenuPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.MenuPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.LoginPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.SchedulePage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.RegisterPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.ForgotPasswordPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.RequestTripPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.Pop_Page.FairEstimatePage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.DestinationPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.BookingOptionsPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.BookingDetailsPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.PaymentPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.FullBookingInformation.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.BookingHistory.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.AboutPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.HelpPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.Driver.DriverRegisterPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.Driver.DriverRegisterPage2.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.Driver.DriverRegisterPage3.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.dll
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.pdb
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.csprojResolveAssemblyReference.cache
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.Driver.DriverProfilePage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.Driver.DriverMyRidesPage.xaml.g.cs
-/Users/rakesh/Desktop/shofar/Shofar/obj/Debug/Shofar.Driver.DriverReviewsPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Shofar.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Shofar.pdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Newtonsoft.Json.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Plugin.Geolocator.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Plugin.Messaging.Abstractions.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Plugin.Messaging.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Rg.Plugins.Popup.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Rg.Plugins.Popup.Platform.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarians.Media.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarin.Forms.Maps.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarin.Forms.Platform.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Newtonsoft.Json.xml
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.pdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Plugin.Geolocator.pdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Plugin.Geolocator.xml
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarians.Media.pdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.pdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll.mdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.xml
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.pdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.xml
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Xamarin.Forms.Maps.xml
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Plugin.Messaging.Abstractions.pdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Plugin.Messaging.Abstractions.xml
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Plugin.Messaging.pdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/Plugin.Messaging.xml
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.pdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.xml
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.csproj.CoreCompileInputs.cache
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.App.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.ShofarPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.HomePage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.SlideMenuPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.MenuPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.LoginPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.SchedulePage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.RegisterPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.ForgotPasswordPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.RequestTripPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Pop_Page.FairEstimatePage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.DestinationPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.BookingOptionsPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.BookingDetailsPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.PaymentPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.FullBookingInformation.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.BookingHistory.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.AboutPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.HelpPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Driver.DriverRegisterPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Driver.DriverRegisterPage2.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Driver.DriverRegisterPage3.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Driver.DriverProfilePage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Driver.DriverMyRidesPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Driver.DriverReviewsPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Driver.DriverMyRideTabbedPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Driver.DriverScheduleRidesPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Pop_Page.NewRideRequestPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Pop_Page.DriverRiderInfoPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.Driver.DriverFinalPricePage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.dll
-/Users/rakesh/Desktop/CrossPlatformMobileDev/oldShofarTryMearge/shofar/Shofar/obj/Debug/Shofar.pdb
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Shofar.dll
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Shofar.pdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.dll
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Newtonsoft.Json.dll
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.dll
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Geolocator.dll
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Media.Abstractions.dll
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Media.dll
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Messaging.Abstractions.dll
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Messaging.dll
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Rg.Plugins.Popup.dll
@@ -301,7 +19,6 @@
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Geolocator.Abstractions.pdb
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Geolocator.pdb
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Geolocator.xml
-/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Xamarians.Media.pdb
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.pdb
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Xamarin.Forms.Core.xml
@@ -309,12 +26,15 @@
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Xamarin.Forms.Xaml.xml
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Xamarin.Forms.Maps.xml
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Media.Abstractions.pdb
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Media.Abstractions.xml
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Media.pdb
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Media.xml
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Xamarians.Media.pdb
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Messaging.Abstractions.pdb
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Messaging.Abstractions.xml
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Messaging.pdb
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/Plugin.Messaging.xml
-/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.pdb
-/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.xml
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.csprojResolveAssemblyReference.cache
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.csproj.CoreCompileInputs.cache
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.App.xaml.g.cs
@@ -336,16 +56,22 @@
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.BookingHistory.xaml.g.cs
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.AboutPage.xaml.g.cs
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.HelpPage.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.ProfilePage.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Setpin.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Pop_Page.RateDriver.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.WalletPage.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Pop_Page.DriverRiderInfoPage.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Pop_Page.NewRideRequestPage.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverFinalPricePage.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverMyRidesPage.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverMyRideTabbedPage.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverProfilePage.xaml.g.cs
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverRegisterPage.xaml.g.cs
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverRegisterPage2.xaml.g.cs
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverRegisterPage3.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverProfilePage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverMyRidesPage.xaml.g.cs
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverReviewsPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverMyRideTabbedPage.xaml.g.cs
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverScheduleRidesPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Pop_Page.NewRideRequestPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Pop_Page.DriverRiderInfoPage.xaml.g.cs
-/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverFinalPricePage.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.Driver.DriverHomePage.xaml.g.cs
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.DriverSlideMenuPage.xaml.g.cs
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.dll
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/Shofar/obj/Debug/Shofar.pdb

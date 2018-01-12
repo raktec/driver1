@@ -2,7 +2,7 @@
 {
     internal class VehicleInfo
     {
-        public string id { get; set; }
+        public string id{ get; set; }
         public string name { get; set; }
         public string max_people { get; set; }
         public string base_fare { get; set; }

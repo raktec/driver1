@@ -16,7 +16,10 @@
                             <StackLayout Orientation="Horizontal" BackgroundColor="#F4F6F7" 
                                 VerticalOptions="FillAndExpand" Padding="10"  >
                                 <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
-                                <Label Text="Booking Id : 0123456789" FontAttributes="Bold" TextColor="#1263B4" />
+                                <Label Text="{Binding DisplayId}" FontAttributes="Bold" TextColor="#1263B4" />
+                                <Label Text="{Binding DisplayBookingDate}" FontSize="12" TextColor="#8B9197" Margin="0, -2,0,0"  />
+                                <Label Text="{Binding schedule_type}" Margin="0,5,0,5" />    
+                                <Label Text="{Binding DisplayBookingText}" Margin="0,5,0,5" FontSize="14" />
                                 <!--<Label Text="THRUSDAY 27 July 2017 11:45 AM" FontSize="12" TextColor="#8B9197" Margin="0, -2,0,0"  />
                                 <Label Text="this is test text. for custome cell" Margin="0,5,0,5" />
                                 <Label Text="Rs. 380" FontAttributes="Bold" TextColor="#F45959" />

@@ -11,7 +11,7 @@ namespace Shofar
 {
     public partial class DestinationPage : BasePage
     {
-		private Map map;
+        private ExtMap map;
 		private Geocoder geoCoder;
 		private Pin pin;
         public Position pickupPosition;
@@ -24,7 +24,7 @@ namespace Shofar
 			geoCoder = new Geocoder();
             Title = "Destination";
 
-			map = new Map(
+            map = new ExtMap(
 			MapSpan.FromCenterAndRadius(
 					new Position(37, -122), Distance.FromMiles(0.3)))
 			{
@@ -43,7 +43,26 @@ namespace Shofar
             btnNext.GestureRecognizers.Add(nextBtnClick);
             txtLocation.Completed += TxtLocation_Completed;
 
+            map.Tapped += Map_Tapped;
+
             //Pick up location pin
+        }
+
+        void Map_Tapped(object sender, Shofar.MapTapEventArgs e)
+        {
+            if (pin != null)
+            {
+                map.Pins.Remove(pin);
+            }
+
+            pin = new Pin
+            {
+                Type = PinType.Place,
+                Position = e.Position,
+                Label = "Custome Location"
+                //,Address = "custom detail info"
+            };
+            map.Pins.Add(pin);
         }
 
         protected override void OnAppearing()

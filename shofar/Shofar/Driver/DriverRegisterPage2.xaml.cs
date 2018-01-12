@@ -67,7 +67,7 @@ namespace Shofar.Driver
             NavigationPage.SetHasNavigationBar(this, false); // hide navigation bar
         }
 
-       
+
 
         void BackButton_Tapped(object sender, System.EventArgs e)
         {

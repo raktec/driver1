@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:Shofar;assembly=Shofar"
+    xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar"
+    x:Class="Shofar.WalletPage">
+	 <ContentPage.Resources>
+            <ResourceDictionary>
+                <Style x:Key="EntryStyle" TargetType="Entry">
+                    <Setter Property="BackgroundColor" Value="Transparent" />
+                </Style>
+            </ResourceDictionary>
+        </ContentPage.Resources>
+        <ContentPage.Content>
+            <AbsoluteLayout>
+
+            
+            <RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+             <!--<Image Source="signup_bg.png" BackgroundColor="Brown" Aspect="AspectFill"
+                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height,Factor=0.0,Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1.0,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1.0,Constant=0}" />-->
+
+                <StackLayout Orientation="Vertical" 
+                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1.0,Constant=0}"
+                    RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1.0,Constant=0}" >
+                    <ScrollView >
+
+                        <StackLayout VerticalOptions="CenterAndExpand"  HorizontalOptions="FillAndExpand" Orientation="Vertical"  Margin="0,20,0,0"  >
+
+                          <!--  <StackLayout VerticalOptions="Center"  HorizontalOptions="FillAndExpand" Orientation="Horizontal"  Margin="0,0,0,10" >
+
+                                 <Image Source="btn-back.png" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="80" >
+
+                                     <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                    Tapped ="BackButton_Tapped"
+                                    />
+                            </Image.GestureRecognizers>
+                                    
+                                </Image>
+                                <Label Text="Register" VerticalOptions="Center" HorizontalOptions="Center" Margin="60,0,10,0" Font="Bold,18" TextColor="White" WidthRequest="220" />
+                            </StackLayout>-->
+                            <Label Text="0.00" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30" TextColor="#1263B4" Margin="20" />
+                          <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}" />
+
+                            <StackLayout VerticalOptions="CenterAndExpand"  HorizontalOptions="FillAndExpand" Orientation="Vertical"  Margin="20,5,20,10" >
+
+                          
+                                <StackLayout BackgroundColor="Lime" Orientation="Horizontal"
+                    HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" x:Name="btn50"  >
+                    <Label Text="RS. 50" Margin="10" HorizontalOptions="CenterAndExpand" />
+                        
+                    </StackLayout>
+
+                                <StackLayout BackgroundColor="Lime" Orientation="Horizontal"
+                    HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" x:Name="btn100"  >
+                    <Label Text="RS. 100" Margin="10" HorizontalOptions="CenterAndExpand" />
+                        
+                    </StackLayout>
+                                <StackLayout BackgroundColor="Lime" Orientation="Horizontal"
+                    HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" x:Name="btn500"  >
+                    <Label Text="RS. 500" Margin="10" HorizontalOptions="CenterAndExpand" />
+                        
+                    </StackLayout>
+                                <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="10" >
+                            <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtAmount" Placeholder="Enter Amount" 
+                                   TextColor="#65B3FF"   />
+                        </StackLayout>
+
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>
+
+                        <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="10" >
+                            <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtCoupan" Placeholder="Enter Coupan Code" 
+                                   TextColor="#65B3FF"   />
+                        </StackLayout>
+
+                        <StackLayout BackgroundColor="#A9A9A9" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible ="{Binding IsAndroid}"/>        
+
+
+                                
+
+                        <StackLayout BackgroundColor="Lime" Orientation="Horizontal"
+                    HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" x:Name="btnAddmoney"  >
+                    <Label Text="Add Money" Margin="10" HorizontalOptions="CenterAndExpand" />
+                                    </StackLayout>
+                            </StackLayout>
+                             
+                     
+                        <!--<Button Clicked="Handle_Clicked" Margin="0, 10, 0, 0"  Font="16" BackgroundColor="Transparent"  Image="next_btn.png"   />-->
+                          
+                    </StackLayout> 
+                       </ScrollView>
+                </StackLayout>
+
+            </RelativeLayout>
+             <!--<RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsLoading}" BackgroundColor="#55000000" >
+             <ActivityIndicator IsVisible="{Binding IsLoading}"
+                               IsRunning="{Binding IsLoading}"
+                               Color="White"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="CenterAndExpand"
+                               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
+                                        Property=Height,
+                                        Factor=0.25}"
+                               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+                                        Property=Height,
+                                        Factor=0.50}" />
+                </RelativeLayout>-->
+
+              <!--<RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsLoading}" BackgroundColor="#55000000">
+            <ActivityIndicator IsVisible="{Binding IsLoading}" IsRunning="{Binding IsLoading}" Color="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,&#xA;                                    Property=Height,&#xA;                                    Factor=0.25}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,&#xA;                                    Property=Height,&#xA;                                    Factor=0.50}" />
+        </RelativeLayout>-->
+                    
+                </AbsoluteLayout>
+        </ContentPage.Content>
+</base:BasePage>

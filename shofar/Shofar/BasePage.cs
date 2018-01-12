@@ -1,11 +1,30 @@
 ﻿using System;
-
+using System.ComponentModel;
 using Xamarin.Forms;
 
 namespace Shofar
 {
-    public partial class BasePage : ContentPage
+    public partial class BasePage : ContentPage, INotifyPropertyChanged
     {
+
+        private bool isLoading;
+        public new event PropertyChangedEventHandler PropertyChanged;
+
+        public bool IsLoading
+        {
+            get { return isLoading; }
+            set
+            {
+                isLoading = value;
+                RaisePropertyChanged("IsLoading");
+            }
+        }
+
+
+        protected void RaisePropertyChanged(string propName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
+        }
         
         /// <summary>
         /// Gets a value indicating whether this <see cref="T:Shofar.BasePage"/> is android.
@@ -19,5 +38,7 @@ namespace Shofar
 			}
 		}
     }
+
+
 }
 

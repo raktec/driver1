@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:base="clr-namespace:Shofar;assembly=Shofar" xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar" x:Class="Shofar.ProfilePage" Title="Profile">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="EntryStyle" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="Transparent" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <RelativeLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+                <StackLayout RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1.0,Constant=0}" 
+                    RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1.0,Constant=0}" Orientation="Vertical">
+                    <ScrollView>
+                        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Margin="5">
+                            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Orientation="Vertical" Margin="5">
+                                <Image Source="demo.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="170" HeightRequest="170" x:Name="imgProfile">
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="on_ProfileImageClick" NumberOfTapsRequired="1" />
+                                    </Image.GestureRecognizers>
+                                </Image>
+                            </StackLayout>
+                            <!--<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Orientation="Vertical">
+                                <Label Text="Aakash Mathur" x:Name="lblName" VerticalOptions="Center" HorizontalOptions="Center" FontSize="14" TextColor="#1263B4" />
+                            </StackLayout>-->
+                            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Orientation="Vertical">
+                                <Label Text="aaksash.mathur@gmail.com" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" FontSize="14" x:Name="lblEmail" />
+                            </StackLayout>
+                            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Orientation="Vertical">
+                                <Label Text="946020123123" VerticalOptions="Center" HorizontalOptions="Center" FontSize="14" x:Name="lblPhone" />
+                            </StackLayout>
+                            
+                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Margin="10" >
+                                <Label Text="First Name" VerticalOptions="Center" HorizontalOptions="Start" FontSize="14" />
+                                <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtFname" Placeholder="Enter First Name" Style="{DynamicResource EntryStyle}" TextColor="#65B3FF" FontSize="14"  />
+                                </StackLayout>
+                                <StackLayout BackgroundColor="Gray" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible="{Binding IsAndroid}" />
+                            </StackLayout>
+                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Margin="10" >
+                                <Label Text="Last Name" VerticalOptions="Center" HorizontalOptions="Start" FontSize="14" />
+                                <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtLname" Placeholder="Enter Last Name" Style="{DynamicResource EntryStyle}" TextColor="#65B3FF" FontSize="14"  />
+                                </StackLayout>
+                                <StackLayout BackgroundColor="Gray" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible="{Binding IsAndroid}" />
+                            </StackLayout>
+                            
+                            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Orientation="Vertical">
+                                <Label Text="Change Password" VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" TextColor="#1263B4" />
+                            </StackLayout>
+                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Margin="10" >
+                                <Label Text="CURRENT PASSWORD" VerticalOptions="Center" HorizontalOptions="Start" FontSize="14" />
+                                <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="txtPassword" Placeholder="Enter current password" Style="{DynamicResource EntryStyle}" TextColor="#65B3FF" FontSize="14" IsPassword="True" />
+                                </StackLayout>
+                                <StackLayout BackgroundColor="Gray" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible="{Binding IsAndroid}" />
+                            </StackLayout>
+                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Margin="10">
+                                <Label Text="NEW PASSWORD" VerticalOptions="Center" HorizontalOptions="Start" FontSize="14" />
+                                <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" Placeholder="Enter new password" Style="{DynamicResource EntryStyle}" TextColor="#65B3FF" FontSize="14" IsPassword="True" x:Name="txtNPassword" />
+                                </StackLayout>
+                                <StackLayout BackgroundColor="Gray" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible="{Binding IsAndroid}" />
+                            </StackLayout>
+                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Margin="10">
+                                <Label Text="RE-NEW PASSWORD" VerticalOptions="Center" HorizontalOptions="StartAndExpand" FontSize="14" />
+                                <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <local:CustomTextField VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" Placeholder="Re-enter new password" Style="{DynamicResource EntryStyle}" TextColor="#65B3FF" FontSize="14" IsPassword="True" x:Name="txtReNPassword" />
+                                </StackLayout>
+                                <StackLayout BackgroundColor="Gray" Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="1" IsVisible="{Binding IsAndroid}" />
+                            </StackLayout>
+                            <Image Source="update_btn.png" HorizontalOptions="Center" VerticalOptions="Center" Margin="10">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="Handle_Tapped" />
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+            </RelativeLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</base:BasePage>

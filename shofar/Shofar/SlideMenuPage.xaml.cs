@@ -19,7 +19,7 @@ namespace Shofar
             menuPage.ListView.ItemSelected += ListView_ItemSelectedAsync;
         }
 
-        void ListView_ItemSelectedAsync(object sender, SelectedItemChangedEventArgs e)
+         void ListView_ItemSelectedAsync(object sender, SelectedItemChangedEventArgs e)
         {
             var item = e.SelectedItem as MasterPageItem;
             if (item != null)
@@ -45,7 +45,7 @@ namespace Shofar
 
                     url = "http://www.google.com";
 
-                    Device.OpenUri(new Uri(url));
+                     Device.OpenUri(new Uri(url));
                 }
                 else if (item.Title == "Share App")
                 {
@@ -64,12 +64,10 @@ namespace Shofar
                     };
 
                     rootViewController.PresentViewController(activityViewController, true, null);*/
-                    NavigationPage.SetHasNavigationBar(this, false);
 
                     MessagingCenter.Send<string>("Hey,I am using shofar for ride.", "Share");
 
                 }
-
                 else
                 {
                     Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
@@ -80,12 +78,7 @@ namespace Shofar
 
 
 
-
-
         }
-
-
-
     }
 }
 

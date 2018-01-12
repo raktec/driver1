@@ -8,7 +8,7 @@ namespace Shofar
     public partial class BookingOptionsPage : BasePage
     {
 
-        public string selectedSchudle;
+        public string selectedSchudle = "";
         public BookingOptionsPage()
         {
             InitializeComponent();
@@ -28,7 +28,7 @@ namespace Shofar
             rbBusinessDays.GestureRecognizers.Add(sechudleSelected);
             rbDailyNotHoliday.GestureRecognizers.Add(sechudleSelected);
 
-            selectedSchudle = "daily";
+            //selectedSchudle = "daily";
             BindingContext = this;
 
         }

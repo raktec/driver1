@@ -493,3 +493,9 @@
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/iOS/obj/iPhoneSimulator/Debug/Shofar.iOS.csproj.CoreCompileInputs.cache
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/iOS/obj/iPhoneSimulator/Debug/Shofar.iOS.exe
 /Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/iOS/obj/iPhoneSimulator/Debug/Shofar.iOS.pdb
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.Abstractions.dll
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.dll
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.Abstractions.pdb
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.Abstractions.xml
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.pdb
+/Users/rakesh/Desktop/CrossPlatformMobileDev/XamriamSelf/driver1/shofar/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.xml

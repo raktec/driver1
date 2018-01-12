@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:BasePage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:Shofar;assembly=Shofar"
+    xmlns:local="clr-namespace:Shofar.CustomRenderers;assembly=Shofar" 
+    x:Class="Shofar.Setpin">
+    <base:BasePage.Content>
+        <ScrollView>
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" 
+            VerticalOptions="FillAndExpand" BackgroundColor="#1263B4">
+            <!--<StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="Fill">
+                <Image Source="search_icon.png" HorizontalOptions="Center" 
+                VerticalOptions="Center" Margin="5,5,5,5" />
+                <local:CustomTextField HorizontalOptions="FillAndExpand" 
+                Placeholder="Set Destination Location" TextColor="White" Margin="5,5,5,5" x:Name="txtLocation"  />
+            </StackLayout>-->
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" x:Name="mapLayout" Margin="0,0,0,-10" />
+            
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" 
+                VerticalOptions="Fill" BackgroundColor="Lime"  >
+                
+                <!--<StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" Margin="5,5,5,5" x:Name="btnMini">
+                <Image Source="mini_car.png" HorizontalOptions="Center" />
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="Fill">
+                <Image Source="radio_unchecked.png" Margin="5,5,5,5" x:Name="rbMini" />
+                <Label Text="Mini" />
+                    </StackLayout>
+                </StackLayout>
+                
+                <StackLayout BackgroundColor="#0D4B8A" Orientation="Horizontal" HorizontalOptions="Fill" HeightRequest="1" WidthRequest="1" />
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" Margin="5,5,5,5" x:Name="btnSedan">
+                <Image Source="sedan_car.png" HorizontalOptions="Center" />
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="Fill">
+                <Image Source="radio_unchecked.png" Margin="5,5,5,5" x:Name="rbSedan" />
+                <Label Text="Sedan" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout BackgroundColor="#0D4B8A" Orientation="Horizontal" HorizontalOptions="Fill" HeightRequest="1" WidthRequest="1" />
+                
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" Margin="5,5,5,5" x:Name="btnSuv">
+                <Image Source="suv_car.png" HorizontalOptions="Center" />
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="Fill">
+                <Image Source="radio_unchecked.png" Margin="5,5,5,5" x:Name="rbSuv" />
+                <Label Text="SUV" VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                </StackLayout>-->
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" BackgroundColor ="Lime" x:Name="btnNext" HeightRequest="50" >
+                    <Label Text="Proceed" HorizontalOptions= "Fill" VerticalOptions="CenterAndExpand" Margin="10"/>
+                <Image Source="next_arrow.png" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Margin="10" />
+
+                </StackLayout>
+                
+            </StackLayout>
+        </StackLayout></ScrollView>
+    </base:BasePage.Content>
+</base:BasePage>
+

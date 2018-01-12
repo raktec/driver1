@@ -56,11 +56,11 @@
                             </Image.GestureRecognizers>
                             </Image>
 
-                     <Button Text="No account yet? Sign up Now" TextColor="White" VerticalOptions="Center" Clicked="Singup_Clicked"  />   
+                     <Button Text="No account yet? Sign up Now" TextColor="White" VerticalOptions="Center" Clicked="Singup_Clicked"  BackgroundColor="Transparent"  />   
+                        
+                     <Button Text="Register as Driver" TextColor="White" VerticalOptions="Center" Clicked="DriverSingup_Clicked"  />   
 
-                      <Button Text="Register as Driver" TextColor="White" VerticalOptions="Center" Clicked="DriverSingup_Clicked"  />   
-
-                     <Button Text="Forgot Password?" TextColor="White" VerticalOptions="Center" Clicked="Forgot_Clicked"  />  
+                        <Button Text="Forgot Password?" TextColor="White" VerticalOptions="Center" Clicked="Forgot_Clicked" BackgroundColor="Transparent"  />   
                 </StackLayout> 
             </StackLayout>
 

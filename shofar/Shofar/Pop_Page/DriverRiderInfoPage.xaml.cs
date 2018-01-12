@@ -6,48 +6,36 @@ using Rg.Plugins.Popup.Pages;
 using Shofar.Service;
 using Xamarin.Forms;
 
-
-
 namespace Shofar.Pop_Page
 {
-
-   
     public delegate void OkButtonClick();
-
-
     public partial class DriverRiderInfoPage : PopupPage
     {
-
         public bool IsAndroid;
-
         internal Bookings BookingsInfo { get; set; }
-       
-       
-
 
         public DriverRiderInfoPage()
         {
             InitializeComponent();
 
             IsAndroid = (Device.RuntimePlatform == Device.iOS);
-            txtBorder1.IsVisible = txtBorder2.IsVisible = txtBorder3.IsVisible= txtBorder4.IsVisible= txtBorder5.IsVisible = txtBorder6.IsVisible = IsAndroid;
-           // NavigationPage.SetHasNavigationBar(this, false); // hide navigation bar
+            txtBorder1.IsVisible = txtBorder2.IsVisible = txtBorder3.IsVisible = txtBorder4.IsVisible = txtBorder5.IsVisible = txtBorder6.IsVisible = IsAndroid;
+            // NavigationPage.SetHasNavigationBar(this, false); // hide navigation bar
 
             BindingContext = this;
         }
-
         protected override void OnAppearing()
         {
             base.OnAppearing();
 
-           
+
             Rname.Text = BookingsInfo.fullname;
             Remail.Text = BookingsInfo.email;
             Rphone.Text = BookingsInfo.phone;
             RpickupAddress.Text = BookingsInfo.pickup_address;
             RdropAddress.Text = BookingsInfo.drop_address;
-            Rdistance.Text = $"{BookingsInfo.distance} Km" ;
-           
+            Rdistance.Text = $"{BookingsInfo.distance} Km";
+
 
 
             FrameContainer.HeightRequest = -1;
@@ -60,7 +48,7 @@ namespace Shofar.Pop_Page
         }
 
 
-       
+
 
         protected async override Task OnAppearingAnimationEnd()
         {
@@ -89,8 +77,5 @@ namespace Shofar.Pop_Page
                 );
         }
 
-       
-
     }
 }
-

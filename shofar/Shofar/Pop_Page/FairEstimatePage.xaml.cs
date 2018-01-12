@@ -44,8 +44,8 @@ namespace Shofar.Pop_Page
 
             // fill values
 
-            lblPeopleSize.Text = VechileInfo.max_people;
-            lblBaseFare.Text = VechileInfo.base_fare;
+            //lblPeopleSize.Text = VechileInfo.max_people;
+            //lblBaseFare.Text = VechileInfo.base_fare;
 
             //LoginButton.Scale = 0.3;
 			//LoginButton.Opacity = 0;

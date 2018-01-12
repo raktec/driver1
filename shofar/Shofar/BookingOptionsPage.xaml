@@ -8,7 +8,7 @@
         <StackLayout  BackgroundColor="White" Orientation="Vertical">
         <Label Text ="Set as Schedule Ride" Margin="10,15,10,15" TextColor="Blue" FontSize="20"/>
             <StackLayout Orientation="Horizontal" x:Name="rbDaily" >
-            <Image Source="radio_checked01.png" Margin="10, 2, 5, 5" x:Name="imgDaily" />
+            <Image Source="radio_unchecked01.png" Margin="10, 2, 5, 5" x:Name="imgDaily" />
                 <Label Text="Daily" VerticalOptions="Center" TextColor="Gray" />
             </StackLayout>
             <StackLayout Orientation="Horizontal" x:Name="rbDailyNotHoliday" >

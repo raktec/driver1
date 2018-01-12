@@ -53,9 +53,14 @@ namespace Shofar
             }
         }
 
-        void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        async void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
             //throw new NotImplementedException();
+            var BookingHistory = e.SelectedItem as Bookings;
+            var BookingDetails = new FullBookingInformation();
+            BookingDetails.selectedBooking = BookingHistory;
+
+            await Navigation.PushAsync(BookingDetails);
         }
 
         private void RaisePropertyChanged(string propName)

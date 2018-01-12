@@ -23,9 +23,12 @@ namespace Shofar
 
             txtDestination.Text = shoferBooking.Booking.DestinationPositionName;
 
-            txtDistance.Text = "380 kms";
+            var bookingFare = shoferBooking.Booking.BasePrice + (shoferBooking.Booking.KMPrice * shoferBooking.Booking.Distance);
+
+            txtDistance.Text = $"{shoferBooking.Booking.Distance : 00.00} Kms" ; //380 kms";
 
             txtCodeword.Text = shoferBooking.Booking.PinCode;
+            txtFarePrice.Text = $"Rs. {bookingFare: 00.00}";
 
         }
 
